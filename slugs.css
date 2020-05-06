@@ -11,6 +11,9 @@ h1
 }
 nav
 {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
  text-align: center;
 }
 a
@@ -22,21 +25,34 @@ img.seaslug
 {
  max-width: 20em;
 }
+.img
+{
+ margin: 0 auto;
+}
+.info
+{
+ display: flex;
+ flex-direction: column;
+}
 h2
 {
- margin-bottom: 0;
+ margin: 0 auto;
+ text-align: start;
 }
 h3
 {
  font-size: 1.2em;
- margin-top: 0;
+ margin: 0 auto;
+ text-align: start;
+ padding-bottom: .4em;
 }
 p
 {
  line-height: 1.2em;
  word-spacing: normal;
- margin-top: 0;
+ margin: 0 auto;
  max-width: 50%;
+ padding-bottom: .5em;
 }
 #seasheep
 {
@@ -47,13 +63,27 @@ margin-top: 2em;
 }
 #spanishdancer
 {
+background-color: #99CCCC;
 display: flex;
 flex-direction: column;
 }
 #neonslug
 {
+background-color: #FFCCFF;
 display: flex;
 flex-direction: column;
 }
-
+#seabunny
+{
+ background-color: #99CCFF;
+ display: flex;
+ flex-direction: colum;
+}
+#bluedragon
+{
+ background-color: #FFFF99;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 2em;
+}
 
